@@ -64,3 +64,17 @@ reuben.pop(2);
 reuben.push("Chicago");
 
 jim[2] = ["Minneapolis", "Madison", "Chicago"];
+
+let ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+for(i = 0; i < ninjaTurtles.length; i ++) {
+	ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
+	console.log(ninjaTurtles[i]);
+};
+
+for(i = 0; i < ninjaTurtles.length; i+=2) {
+	ninjaTurtles[i] = ninjaTurtles[i].toLowerCase();
+
+}
+
+console.log(ninjaTurtles);
