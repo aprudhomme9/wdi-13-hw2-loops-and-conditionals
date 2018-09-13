@@ -125,5 +125,16 @@ for(i = 0; i < kristynsCloset.length; i ++) {
 };
 
 for(i = 0; i < thomsCloset.length; i ++) {
-	console.log(`These are Thom's arraybans: ${thomsCloset[i]}`);
-}
+	console.log(thomsCloset[i]);
+};
+
+let euler = 0;
+for(i = 1; i <= 1000; i ++) {
+	if(i % 3 === 0 || i % 5 === 0) {
+		euler += i;
+	};
+
+};
+
+console.log(euler);
+
