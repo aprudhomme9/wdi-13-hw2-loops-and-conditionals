@@ -119,3 +119,11 @@ const firstOutfit = `First, we're wearing ${kristynsCloset[1]} with ${kristynsCl
 const secondOutfit = `For our second outfit, we'll wear our ${thomsCloset[2][0]}, ${thomsCloset[2][2]} and our ${thomsCloset[1][2]}`;
 
 const thirdOutfit = `Lastly, for our most hip outfit, we'll be wering our ${kristynsCloset[5]} with our ${kristynsCloset[0]} and our ${kristynsCloset[3]}.`;
+
+for(i = 0; i < kristynsCloset.length; i ++) {
+	console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
+};
+
+for(i = 0; i < thomsCloset.length; i ++) {
+	console.log(`These are Thom's arraybans: ${thomsCloset[i]}`);
+}
