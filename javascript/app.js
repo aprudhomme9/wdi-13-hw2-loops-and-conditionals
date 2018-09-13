@@ -78,3 +78,44 @@ for(i = 0; i < ninjaTurtles.length; i+=2) {
 }
 
 console.log(ninjaTurtles);
+
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+
+// const kristynsShoe = kristynsCloset.shift();
+
+// thomsCloset[2].push(kristynsShoe);
+
+const firstOutfit = `First, we're wearing ${kristynsCloset[1]} with ${kristynsCloset[4]} and a ${kristynsCloset[3]}`;
+
+const secondOutfit = `For our second outfit, we'll wear our ${thomsCloset[2][0]}, ${thomsCloset[2][2]} and our ${thomsCloset[1][2]}`;
+
+const thirdOutfit = `Lastly, for our most hip outfit, we'll be wering our ${kristynsCloset[5]} with our ${kristynsCloset[0]} and our ${kristynsCloset[3]}.`;
