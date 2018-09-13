@@ -14,10 +14,10 @@ for(i = 0; i < 20; i++){
 
 for(i = 0; i < 20; i+=2) {
 	let int = Math.random();
-	if(int > 0.75) {
+	if(int > 0.67) {
 		let message = "...human...why you taking pictures of me?...";
 	}
-	else if(int > 0.5) {
+	else if(int > 0.33) {
 		message = "...the catnip made me do it...";
 	}
 
